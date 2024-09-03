@@ -1,0 +1,51 @@
+TimeSynth
+# Ignorar archivos de configuración de IDE
+*.idea/
+*.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Ignorar archivos de log
+*.log
+
+# Ignorar archivos temporales
+*.tmp
+*.swp
+
+# Ignorar archivos generados por el sistema operativo
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos de compilación
+build/
+dist/
+
+# Ignorar dependencias
+node_modules/
+vendor/
+
+# Ignorar archivos de base de datos
+*.sqlite
+*.db
+
+# Ignorar archivos sensibles
+config/.env
+
+# Ignorar archivos específicos de usuario
+*.pem
+*.key
+
+# Ignorar archivos específicos de Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignorar archivos específicos de Java
+*.class
+*.jar
+
+# Ignorar archivos específicos de C++
+*.o
+*.obj
+*.exe
+*.out
